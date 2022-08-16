@@ -25,6 +25,6 @@ public:
     }
 
     double findMedian(){
-        return lo.size()>hi.size()?
+        return lo.size() > hi.size() ?: ;
     }
 };
